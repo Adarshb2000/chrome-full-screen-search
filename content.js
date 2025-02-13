@@ -1,4 +1,3 @@
-console.log('script loaded');
 let isFullscreen = !window.screenTop && !window.screenY;
 let searchPopup = null;
 let searchInput = null;
