@@ -1,0 +1,1 @@
+# chrome-full-screen-search
