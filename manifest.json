@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Fullscreen Search",
+  "version": "0.1",
+  "description": "Search popup for fullscreen mode",
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": "icon128.png"
+  }
+}
